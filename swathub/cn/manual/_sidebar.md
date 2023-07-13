@@ -1,0 +1,26 @@
+* 快速上手
+  * [平台概述](README)
+  * [业务自动化](guide_rpa)
+  * [测试自动化](guide_test_automation)
+* SWATHub设计平台
+  * [平台用户](design_user)
+  * [工作项目](design_workspace)
+  * [场景组](design_scenario_group)
+  * [自动化场景](design_scenario)
+  * [测试用例](design_case)
+  * [工作流程](design_flow)
+  * [对象模型](design_model)
+  * [执行任务](design_task)
+  * [执行结果](design_result)
+  * [企业版部署(VM)](design_enterprise_setup_vm)
+  * [企业版部署(Docker)](design_enterprise_setup_docker)
+  * [企业版管理](design_enterprise_management)
+* SWATHub桌面端
+  * [桌面流程编辑器](robot_flow_builder)
+* SWATHub机器人
+  * [安装设置](robot_setup)
+  * [流程运行](robot_execution)
+  * [模型获取工具](robot_model_capture_tool)
+  * [Web浏览器拾取插件](robot_web_inspector)
+  * [Windows控件获取工具](robot_windows_inspect)
+  * [移动端平台](robot_mobile_setup)
