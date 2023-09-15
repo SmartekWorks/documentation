@@ -12,6 +12,8 @@
   * [对象模型](design_model)
   * [执行任务](design_task)
   * [执行结果](design_result)
+  * [执行计划](design_plan)
+  * [执行报告](design_report) 
   * [企业版部署(VM)](design_enterprise_setup_vm)
   * [企业版部署(Docker)](design_enterprise_setup_docker)
   * [企业版管理](design_enterprise_management)
