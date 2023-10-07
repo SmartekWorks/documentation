@@ -39,12 +39,6 @@ SWATHub机器人运行时默认为后台运行，如需查看任务列表、日�
 
 当SWATHub机器人不连接任何**桌面端流程编辑器**、**SWATHub设计平台**、**机器人控制中心**时可以启用**单机模式**运行，此时SWATHub机器人需要成功激活**离线终端机器人订阅**。
 
-![图7  机器人单机模式1](../assets/img/manual-robot_alone-03.png)
-
-![图8  机器人单机模式2](../assets/img/manual-robot_alone-01.png)
-
-![图9  机器人单机模式3](../assets/img/manual-robot_alone-02.png)
-
 ![图10  机器人单机模式4](../assets/img/manual-robot_alone-04.png)
 
 当前订阅到期后，右键点击系统状态栏中SWATHub机器人菜单中**订阅**选项，在订阅码输入框中输入新的授权订阅码，点击**应用**即可激活新的订阅有效期。
@@ -158,9 +152,15 @@ SWATHub机器人的**场景**标签中的场景包列表中会出现该场景包
 
 ![图6 机器人连接](../assets/img/manual-robot_node-01.png)
 
-2. 点击登录界面左下角的**设置**按钮，为当前SWATHub机器人命名；
+2. 点击登录界面左下角的**设置**按钮，设置当前SWATHub机器人节点的相关参数；
 
 ![图7  机器人登录1](../assets/img/manual-robot_node-02-1.png)
+
+* **机器人名称**: 连接到SWATHub设计平台时该机器人所对应的名称，未填时使用当前IP作为名称。
+* **代理服务器**: 通过HTTP代理服务器连接SWATHub设计平台时的服务器地址。
+* **代理端口**: 通过HTTP代理服务器连接SWATHub设计平台时的服务器端口。
+* **代理用户名**: 通过HTTP代理服务器连接SWATHub设计平台时的用户名。
+* **代理密码**: 通过HTTP代理服务器连接SWATHub设计平台时的密码。
 
 3. 输入需要登录的管理平台根URL，如`https://swathub.com`或者`http://10.0.0.2:8080`，以及SWATHub控制中心的管理账号<sup>1</sup>用户名，密码，点击**登录**按钮，登录服务器。
 
