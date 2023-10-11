@@ -11,6 +11,8 @@
   * [モデル](design_model)
   * [タスクグループ](design_task)
   * [実行結果](design_result)
+  * [実行プラン](design_plan)
+  * [実行レポート](design_report)  
   * [エンタープライズ版導入(VM)](design_enterprise_setup_vm)
   * [エンタープライズ版導入(Docker)](design_enterprise_setup_docker)
   * [エンタープライズ版管理](design_enterprise_management)

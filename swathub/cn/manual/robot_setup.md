@@ -21,7 +21,7 @@
 1. 从SWATHub设计平台上的**机器人**菜单中下载[相应平台](#平台版本)的SWATHub机器人安装包，比如`swathub-robot-v1.8.0-x64.zip`，请参考[平台用户](design_user.md) - **机器人下载安装** 。
 1. 将SWATHub机器人安装包解压缩到安装目录<sup>1</sup> <sup>2</sup>。
 1. 设置SWATHub机器人所在业务终端的操作系统和所使用到的浏览器<sup>3</sup> <sup>4</sup>。
-1. 运行`SWATHub-Robot.exe`或`SWATHub-Robot`启动SWATHub机器人。
+1. 运行`swathub-robot.exe`或`swathub-robot`启动SWATHub机器人。
 1. 激活**单机模式**运行SWATHub机器人的**订阅**步骤如下所示<sup>5</sup>：。
 
 ![图7  机器人单机模式1](../assets/img/manual-robot_alone-03.png)
@@ -62,7 +62,7 @@ SWATHub机器人在连接SWATHub设计平台时会侦测当前机器人和设计
 2. 下载所需版本的SWATHub机器人安装包。
 3. 删除老版本的SWATHub机器人安装目录。
 3. 将SWATHub机器人安装包解压缩到的安装目录。
-4. 运行`SWATHub-Robot.exe`或`SWATHub-Robot`启动SWATHub机器人，用户数据将根据需要进行自动升级。
+4. 运行`swathub-robot.exe`或`swathub-robot`启动SWATHub机器人，用户数据将根据需要进行自动升级。
 
 ?> 1. 当SWATHub机器人和SWATHub设计平台版本不同时，虽然过去创建的场景仍有可能可以正常运行，但是使用到新版本特性的场景往往无法正常运行。
 
@@ -77,7 +77,7 @@ SWATHub机器人在连接SWATHub设计平台时会侦测当前机器人和设计
 
 * **显示语言**: 界面所使用的语言，当前支持英文，中文和日文。
 * **机器人模式**: 根据当前的运行需求选择SWATHub机器人以[开发模式](robot_execution.md)、[单机模式](robot_execution.md)或者[节点模式](robot_execution.md)运行。
-* **本地端口**: 连接`SWATHub-desktop`本地设计器时的默认端口，如未被占用，无需修改。
+* **本地端口**: 连接`swathub-desktop`本地设计器时的默认端口，如未被占用，无需修改。
 * **引擎版本**: 当前SWATHub机器人引擎版本号。
 
 ![图2 设置-机器人](../assets/img/manual-robot_setup-01.png)
@@ -142,65 +142,9 @@ firefox.exe -profilemanager
 firefox.exe -P firefox-profile
 ```
 
-### 高级
+### 设备
 
-* **扩展平台定义**: SWATHub机器人可以连接使用的扩展平台（如手机平台）的JSON定义。
-
-![图5 设置-高级](../assets/img/manual-robot_setup-05.png)
-
-#### 扩展平台定义
-
-SWATHub机器人除了可以使用所在业务终端的各种操作系统浏览器平台外，还可以连接兼容WebDriver标准的扩展平台，包括[Appium](http://appium.io/)，[Selenium Grid](https://github.com/SeleniumHQ/selenium/wiki/Grid-Platforms)，以及[BrowserStack](http://www.browserstack.com)或[Sauce Labs](https://saucelabs.com)等云服务。
-
-为了连接并使用扩展平台，必须通过以下JSON语法来定义扩展平台的列表。
-
-* `remoteURL` (必须): 扩展平台所在服务的Remote WebDriver API的URL。
-* `code` (必须): 该平台的代码，使用自定义的文字列，将显示在浏览器列表中。
-* `definition` (必须): 该平台的系统信息。
-  * `os` (必须): 操作系统名。支持`Windows`、`macOS`、`Linux`、`iOS`、`Android`。
-  * `osVer`: 操作系统版本。
-  * `browser` (必须): 浏览器名。支持`IE`、`Edge`、`Edge Legacy`、`Firefox`、`Chrome`、`Safari`、`Browser`。
-  * `browserVer`: 浏览器版本。
-* `capabilities`: 该平台的驱动特性设置，使用该平台所支持的WebDriver Capabilities键名和键值。
-
-以下是连接Appium手机平台的扩展平台定义的例子。
-
-```json
-[
-  {
-    "remoteURL": "http://localhost:4723/wd/hub",
-    "code": "iOS 11 Safari",
-    "definition": {
-      "os":"iOS",
-      "osVer":"9.1",
-      "browser":"Safari",
-      "browserVer":"9"
-    },
-    "capabilities":{
-      "udid":"YOUR_DEVICE_UDID",
-      "deviceName":"iPhone",
-      "platformName":"iOS",
-      "browserName":"Safari",
-      "platformVersion":"9.1"
-    }
-  },
-  {
-    "remoteURL": "http://localhost:4723/wd/hub",
-    "code": "Android Chrome",
-    "definition": {
-      "os": "Android",
-      "osVer": "4.4",
-      "browser": "Chrome",
-      "browserVer": "66"
-    },
-    "capabilities": {
-      "deviceName": "Android",
-      "platformName": "Android",
-      "browserName": "Chrome"
-    }
-  }
-]
-```
+TODO
 
 运行环境设置
 ---
