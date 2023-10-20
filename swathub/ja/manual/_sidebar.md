@@ -16,6 +16,8 @@
   * [エンタープライズ版導入(VM)](design_enterprise_setup_vm)
   * [エンタープライズ版導入(Docker)](design_enterprise_setup_docker)
   * [エンタープライズ版管理](design_enterprise_management)
+* デスクトップ
+  * [デスクトップフロービルダー](robot_flow_builder)
 * ロボット
   * [セットアップ](robot_setup)
   * [自動実行](robot_execution)
