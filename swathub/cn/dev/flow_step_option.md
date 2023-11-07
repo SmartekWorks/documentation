@@ -152,16 +152,19 @@ Edge的特殊设置。
 * 使用MAP来设置选项和值，有如下几种设置选项，缺省值为`{}`。
   * `fullscreen `：选择桌面截图还是浏览器截图的选项，使用`true`或`false`。缺省值为`false`。
   * `fullscreenScroll`：在有可以滚屏的窗口时，是否要滚动截取多张截图的选项，仅当`fullscreen`被设置为`true`有效。使用`true`或`false`。缺省值为`false`。
+  * `scrollOffset`：在对存在顶部浮动栏的页面进行滚屏截图时、可以修正滚屏距离。使用整数。缺省值为`0`。
+  * `composite`：当页面存在滚动条时，是否要合成一张全屏截图。使用`true`或`false`。缺省值为`true`。
   * `scrollableFrames`：需要滚屏截图的窗体。设定值是窗体 (包含下列内容的MAP) 的数组。缺省值为`[]`。
     * `id`：窗体的ID。例如，`{"id":"frame2"}`。
     * `name`：窗体的名称。例如，`{"name":"frame2"}`。
+    * `scrollOffset`：对存在顶部浮动栏的窗体页面进行滚屏截图时、可以修正滚屏距离。使用整数。缺省值为`0`。
+    * `composite`：当窗体存在滚动条时，是否要合成一张整体截图。使用`true`或`false`。缺省值为`true`。  
   * `scrollableElements`：需要滚屏截图的元素。设定值是元素 (包含下列内容的MAP) 的数组。缺省值为`[]`。
     * `id`：元素的ID。例如，`{"id":"shopping_cart"}`。
     * `css`：元素的CSS选择器(IE9+)。例如，`{"css":"div.main_menu"}`。
     * `frame`:元素所在的窗体(设定值是窗体 (包含下列内容的JSON对象) 的数组)。
         * `id`：窗体的ID。例如，`{"id":"frame2"}`。
         * `name`：窗体的名称。例如，`{"name":"frame2"}`。
-  * `scrollOffset`：在对存在顶部浮动栏的页面进行滚屏截图时、可以修正滚屏距离。设定值非0时、每个截图将不会被合成一张全屏截图。使用整数。缺省值为`0`。
 
 #### `browserScrollIntoView`
 
@@ -273,6 +276,13 @@ Edge的特殊设置。
 执行完毕之后是否保留APP会话不关闭。仅在系统操作`启动App`中设置有效。
 
 * 使用`true`或者`false`。缺省值为`false`。
+
+#### `mobileCapabilities`
+
+增加Appium Driver的Capabilities。
+
+* 使用Capabilities的MAP来设置选项和值，缺省值为`{}`。
+* 本项设置需要在[启动App](sop_mobileapp#启动App)的步骤，或者整个流程上进行设置。
 
 #### `apiOptions`
 
