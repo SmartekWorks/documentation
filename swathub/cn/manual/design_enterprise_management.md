@@ -20,7 +20,7 @@
 
 ![管理界面](../assets/img/manual-enterprise-01.png)
 
-![更新订阅](../assets/img/manual-enterprise-02.png)
+![更新订阅](../assets/img/manual-enterprise-01-1.png)
 
 ?> 1. 如果用户已超过允许的订阅，请禁用用户并再次导入订阅代码。
 

@@ -19,7 +19,7 @@ SWATHubエンタープライズ版サービスを使用するには、有効な�
 
 ![管理画面](../assets/img/manual-enterprise-01.png)
 
-![サブスクリプションの更新](../assets/img/manual-enterprise-01.png)
+![サブスクリプションの更新](../assets/img/manual-enterprise-01-1.png)
 
 ?> 1. 許可されたライセンス以上のユーザーが既にいる場合は、ユーザーを無効にして、サブスクリプションコードを再度インポートしてください。
 
