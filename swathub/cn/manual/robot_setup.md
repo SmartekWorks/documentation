@@ -205,7 +205,7 @@ document.getElementById('overridelink').click();
 
 #### Google Chrome
 
-* SWATHub机器人会显示出用户所使用的Chrome版本。如果所使用的SWATHub机器人版本无法提供更新的Chrome驱动，请从[Chrome官网](https://sites.google.com/a/chromium.org/chromedriver/downloads)下载相应版本的驱动，并通过**设置**对话框**浏览器**标签下的**打开浏览器驱动目录**按钮 <i class="fa fa-folder-open"></i> 打开浏览器驱动目录，手动替换浏览器驱动目录下的Chrome驱动，SWATHub机器人在启动时会自动读取。
+* SWATHub机器人会显示出用户所使用的Chrome版本。如果所使用的SWATHub机器人版本无法提供更新的Chrome驱动，请从[Chrome官网](https://googlechromelabs.github.io/chrome-for-testing/)下载相应版本的驱动，并通过**设置**对话框**浏览器**标签下的**打开浏览器驱动目录**按钮 <i class="fa fa-folder-open"></i> 打开浏览器驱动目录，手动替换浏览器驱动目录下的Chrome驱动，SWATHub机器人在启动时会自动读取。
 * 驱动特性
   * 为了消除日常使用设置的影响，Chrome驱动每次启动都会使用空白配置的缺省设置，如果流程中使用到特殊设置，请在SWATHub机器人中设置**Chrome配置**。
   * Chrome驱动支持多个Chrome进程同时运行自动化任务，并且不受其他的键盘和鼠标操作的影响。
