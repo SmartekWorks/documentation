@@ -20,7 +20,7 @@
 
 ![管理界面](../assets/img/manual-enterprise-01.png)
 
-![更新订阅](../assets/img/manual-enterprise-01-1.png)
+![更新订阅](../assets/img/manual-enterprise-02.png)
 
 ?> 1. 如果用户已超过允许的订阅，请禁用用户并再次导入订阅代码。
 
@@ -59,6 +59,8 @@
 ### 项目管理
 
 * 访问项目：当**超级用户**选定用户的workspace使用`访问项目`操作，系统会自动打开该项目的场景组列表界面。
+
+![访问项目](../assets/img/manual-enterprise-10-1.png)
 
 ![访问项目](../assets/img/manual-enterprise-10.png)
 
