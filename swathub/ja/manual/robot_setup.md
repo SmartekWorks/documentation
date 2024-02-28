@@ -113,11 +113,11 @@ SWATHubロボットを起動すると、現在のオペレーティングシス�
 
 1. 実行中のすべてのChromeインスタンスを閉じます。
 2. 異なるオペレーティングシステムでChromeのバイナリを見つけます。
-  * (Windows) `%HOMEPATH%\Local Settings\Application Data\Google\Chrome\Application\chrome.exe`
-  * (Windows) `%HOMEPATH%\AppData\Local\Google\Chrome\Application\chrome.exe`
-  * (Windows) `C:\Program Files\Google\Chrome\Application\chrome.exe`
-  * (Windows) `C:\Program Files (x86)\Google\Chrome\Application\chrome.exe`
-  * (MacOS) `/Applications/Google Chrome.app/Contents/MacOS/Google Chrome`
+  * Windows `%HOMEPATH%\Local Settings\Application Data\Google\Chrome\Application\chrome.exe`
+  * Windows `%HOMEPATH%\AppData\Local\Google\Chrome\Application\chrome.exe`
+  * Windows `C:\Program Files\Google\Chrome\Application\chrome.exe`
+  * Windows `C:\Program Files (x86)\Google\Chrome\Application\chrome.exe`
+  * MacOS `/Applications/Google Chrome.app/Contents/MacOS/Google Chrome`
 3. 下記のコマンドで新しいChromeのプロファイルを作成します。
 ```batch
 chrome.exe --user-data-dir=C:\Dev\chrome-profile
@@ -130,8 +130,8 @@ chrome.exe --user-data-dir=C:\Dev\chrome-profile
 
 1. 実行中のすべてのFirefoxインスタンスを閉じます。
 2. 異なるオペレーティングシステムでfirefoxのバイナリを見つけます。
-  * (Windows) `"C:\Program Files (x86)\Mozilla Firefox\firefox.exe"`
-  * (MacOS) `/Applications/Firefox.app/Contents/MacOS/firefox`
+  * Windows `"C:\Program Files (x86)\Mozilla Firefox\firefox.exe"`
+  * MacOS `/Applications/Firefox.app/Contents/MacOS/firefox`
 3. Firefoxのプロファイルマネージャを起動し、新しいプロファイルを設定します。
 ```batch
 firefox.exe -profilemanager
@@ -143,7 +143,16 @@ firefox.exe -P firefox-profile
 
 ### デバイス
 
-TODO
+SWATHubロボットが起動すると、現在接続されているすべてのモバイルデバイスを自動的に検出します。
+
+![図6 設定-デバイス](../assets/img/manual-robot_setup-04.png)
+
+各ブラウザディレクトリには以下の設定項目があります：
+
+* **プラットフォームコード**：デフォルトでは、携帯電話のモデル（オペレーティングシステムのバージョン）が表示されます。
+* **UDID**：モバイルデバイスの一意の識別子。
+* **OS**：オペレーティングシステムの名前とバージョン。
+* **追加Capabilities**：JSON形式の拡張設定。
 
 実行環境設定
 ---

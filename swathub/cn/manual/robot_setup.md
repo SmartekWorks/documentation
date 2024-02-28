@@ -71,7 +71,7 @@ SWATHub机器人在连接SWATHub设计平台时会侦测当前机器人和设计
 
 通过SWATHub机器人的**设置**菜单可以打开机器人设置对话框，来进行如下设置。
 
-![图3 设置-任务](../assets/img/manual-robot_design-01.png)
+![图1 设置](../assets/img/manual-robot_design-01.png)
 
 ### 机器人
 
@@ -95,7 +95,7 @@ SWATHub机器人在连接SWATHub设计平台时会侦测当前机器人和设计
 
 SWATHub机器人启动后会自动侦测当前操作系统中已安装的可用浏览器。
 
-![图3 设置-任务](../assets/img/manual-robot_setup-03.png)
+![图4 设置-浏览器](../assets/img/manual-robot_setup-03.png)
 
 在每个浏览器目录下有下列配置项：
 
@@ -106,7 +106,7 @@ SWATHub机器人启动后会自动侦测当前操作系统中已安装的可用�
 * **代理端口**: 浏览器所使用的代理服务器的服务器端口。
 * **驱动程序**: 浏览器所使用的驱动程序版本代码，如需变更当前驱动程序，点击右边文件夹按钮，打开驱动文件夹，选取所需驱动程序文件。
 
-![图3 设置-任务](../assets/img/manual-robot_setup-03-1.png)
+![图5 设置-浏览器](../assets/img/manual-robot_setup-03-1.png)
 
 ?> 1. 浏览器所使用的下载目录的路径。使用IE时需要和浏览器中的设置保持一致。
 
@@ -114,11 +114,11 @@ SWATHub机器人启动后会自动侦测当前操作系统中已安装的可用�
 
 1. 关闭执行中的Chrome。
 2. 寻找到Chrome的可执行文件。根据不同平台，缺省安装的路径会有所不同。
-  * (Windows) `%HOMEPATH%\Local Settings\Application Data\Google\Chrome\Application\chrome.exe`
-  * (Windows) `%HOMEPATH%\AppData\Local\Google\Chrome\Application\chrome.exe`
-  * (Windows) `C:\Program Files\Google\Chrome\Application\chrome.exe`
-  * (Windows) `C:\Program Files (x86)\Google\Chrome\Application\chrome.exe`
-  * (MacOS) `/Applications/Google Chrome.app/Contents/MacOS/Google Chrome`
+  * Windows `%HOMEPATH%\Local Settings\Application Data\Google\Chrome\Application\chrome.exe`
+  * Windows `%HOMEPATH%\AppData\Local\Google\Chrome\Application\chrome.exe`
+  * Windows `C:\Program Files\Google\Chrome\Application\chrome.exe`
+  * Windows `C:\Program Files (x86)\Google\Chrome\Application\chrome.exe`
+  * MacOS `/Applications/Google Chrome.app/Contents/MacOS/Google Chrome`
 3. 执行下述命令创建新的Chrome配置。
 ```batch
 chrome.exe --user-data-dir=C:\Dev\chrome-profile
@@ -131,8 +131,8 @@ chrome.exe --user-data-dir=C:\Dev\chrome-profile
 
 1. 关闭执行中的Firefox。
 2. 寻找到Firefox的可执行文件。根据不同平台，缺省安装的路径会有所不同。
-  * (Windows) `"C:\Program Files (x86)\Mozilla Firefox\firefox.exe"`
-  * (MacOS) `/Applications/Firefox.app/Contents/MacOS/firefox`
+  * Windows `"C:\Program Files (x86)\Mozilla Firefox\firefox.exe"`
+  * MacOS `/Applications/Firefox.app/Contents/MacOS/firefox`
 3. 执行下述命令启动Firefox的配置管理器，通过管理器界面设置新的配置。
 ```batch
 firefox.exe -profilemanager
@@ -144,7 +144,16 @@ firefox.exe -P firefox-profile
 
 ### 设备
 
-TODO
+SWATHub机器人启动后，会自动侦测当前所有已经连接的手机设备。
+
+![图6 设置-设备](../assets/img/manual-robot_setup-04.png)
+
+在每个浏览器目录下有下列配置项：
+
+* **平台代码**: 默认显示为手机型号（操作系统版本）。
+* **UDID**: 手机设备的唯一标识。
+* **OS**: 操作系统名称及版本。
+* **扩展设置**: JSON格式的扩展设置。
 
 运行环境设置
 ---

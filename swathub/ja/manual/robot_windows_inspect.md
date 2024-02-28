@@ -1,11 +1,9 @@
 WINインスペクター
 ===
 
-SWATHubロボットに「WINインスペクター」<sup>1</sup>のツールは含まれています。それを利用すれば、もっとシンプルに[Windowsコントロールのセレクター](../dev/sop_winapp#Windowsコントロールのセレクター)が取得できます。ロボットの**ツール**メニューから**WINインスペクター**を開いて、操作します。
+SWATHubロボットに「WINインスペクター」<sup>1</sup>のツールは含まれています<sup>2</sup>。
 
-![Windows Inspect](../assets/img/manual-windows_inspect-01.png)
-
-?> 1. WINインスペクターは現在64bitのWindows 10のみ対応しています。
+?> 1. WINインスペクターは現在64bitのWindows 10のみ対応しています、パスは `%appdata%\swathub-robot\addons\<version>\system\SWATHubInspect` に位置しています。
 
 ?> 2. 一部のWindowsでツールが開ない問題があります。その場合に、[Microsoft Visual C++ Redistributable](https://aka.ms/vs/16/release/vc_redist.x64.exe)をインストールしてから再度ツールを開いてみてください。
 

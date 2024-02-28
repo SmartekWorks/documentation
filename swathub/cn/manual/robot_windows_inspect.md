@@ -1,11 +1,11 @@
 Windows控件获取工具
 ===
 
-SWATHub Robot客户端工具集成了「Windows控件获取工具」<sup>1</sup>，我们可以使用客户端工具获取Windows应用程序的[选择器](../dev/sop_winapp#Windows控件的选择器)。通过客户端**工具**菜单进入**Windows控件获取工具**界面，开始获取操作。
+SWATHub Robot客户端工具集成了「Windows控件获取工具」<sup>1</sup> <sup>2</sup>。
 
 ![图1  Windows Inspect 1](../assets/img/manual-windows_inspect-01.png)
 
-?> 1. 工具目前仅支持Windows 10 64位系统。
+?> 1. 工具目前仅支持Windows 10 64位系统，路径位于 `%appdata%\swathub-robot\addons\<version>\system\SWATHubInspect`。
 
 ?> 2. 个别系统中可能遇到工具点击之后无法打开的问题，可以尝试安装 [Microsoft Visual C++ Redistributable](https://aka.ms/vs/16/release/vc_redist.x64.exe) 之后重新尝试。
 

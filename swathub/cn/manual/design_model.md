@@ -121,7 +121,7 @@ Web页面是流程自动化应用中常用的用户交互界面。我们可以�
 
 #### 客户端工具获取
 
-SWATHub Robot客户端工具集成了模型获取器，我们可以试用客户端工具实现Web页面的获取。具体步骤详见**SWATHub机器人**[模型获取器](robot_model_capture_tool.md)。
+SWATHub Robot客户端工具集成了模型获取器，我们可以试用客户端工具实现Web页面的获取。具体步骤详见**SWATHub桌面端**[模型获取器](desktop_model_capture_tool.md)。
 
 ### Web模型导入
 
@@ -275,7 +275,7 @@ SWATHub可以对所要操作的Windows应用进行建模，在模型上定义操
 
 ### Windows模型获取
 
-SWATHub Robot客户端工具集成了**模型获取器**，我们可以使用客户端工具实现Windows应用界面模型的获取。获取Windows模型的模型获取器操作步骤详见**SWATHub机器人**[模型获取器](robot_model_capture_tool?id=windows模型的获取)。
+SWATHub桌面端工具集成了**模型获取器**，我们可以使用桌面端工具实现Windows应用界面模型的获取。获取Windows模型的模型获取器操作步骤详见**SWATHub桌面端**[模型获取器](desktop_model_capture_tool?id=windows模型的获取)。
 
 点击  <i class = "fa fa-plus"></i> **模型**按钮选择**Windows模型**，导入已获取的Windows应用程序页面文件<sup>1</sup>，Windows应用程序页面将被添加为新Windows模型。当Windows模型成功导入后会显示在左侧模型库内。
 
@@ -441,7 +441,7 @@ SWATHub可以驱动移动仿真器和真实设备来测试移动 Web 应用程�
 
 ### APP模型获取
 
-SWATHub Robot客户端工具集成了 模型获取器，我们可以使用客户端工具实现移动Web程序页面的获取。开始获取APP模型之前，首先需要对移动端平台进行安装设置，详见**SWATHub机器人**[移动端平台](robot_mobile_setup.md)，APP模型获取器操作步骤详见**SWATHub机器人**[模型获取器](robot_model_capture_tool?id=app模型的获取)。
+SWATHub桌面端工具集成了 模型获取器，我们可以使用桌面端工具实现移动Web程序页面的获取。开始获取APP模型之前，首先需要对移动端平台进行安装设置，详见**SWATHub机器人**[移动端平台](robot_mobile_setup.md)，APP模型获取器操作步骤详见**SWATHub桌面端**[模型获取器](desktop_model_capture_tool?id=app模型的获取)。
 
 点击  <i class = "fa fa-plus"></i> **模型**按钮选择**APP模型**，导入已获取的移动Web程序页面文件<sup>1</sup>，移动Web程序页面将被添加为新APP模型。当APP模型成功导入后会显示在左侧模型库内。
 

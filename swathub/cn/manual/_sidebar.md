@@ -18,11 +18,11 @@
   * [企业版部署(Docker)](design_enterprise_setup_docker)
   * [企业版管理](design_enterprise_management)
 * SWATHub桌面端
-  * [桌面流程编辑器](robot_flow_builder)
+  * [桌面流程编辑器](desktop_flow_builder)
+  * [模型获取工具](desktop_model_capture_tool)
 * SWATHub机器人
   * [安装设置](robot_setup)
   * [流程运行](robot_execution)
-  * [模型获取工具](robot_model_capture_tool)
   * [Web浏览器拾取插件](robot_web_inspector)
   * [Windows控件获取工具](robot_windows_inspect)
   * [移动端平台](robot_mobile_setup)

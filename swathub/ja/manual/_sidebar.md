@@ -17,12 +17,11 @@
   * [エンタープライズ版導入(Docker)](design_enterprise_setup_docker)
   * [エンタープライズ版管理](design_enterprise_management)
 * デスクトップ
-  * [デスクトップフロービルダー](robot_flow_builder)
+  * [デスクトップフロービルダー](desktop_flow_builder)
+  * [モデルキャプチャーツール](desktop_model_capture_tool)
 * ロボット
   * [セットアップ](robot_setup)
   * [自動実行](robot_execution)
-  * [モデルキャプチャーツール](robot_model_capture_tool)
   * [ブラウザ拡張機能](robot_web_inspector)
   * [WINインスペクター](robot_windows_inspect)
-  * [モバイル端末管理](robot_device_manager)
   * [モバイル環境設定](robot_mobile_setup)
