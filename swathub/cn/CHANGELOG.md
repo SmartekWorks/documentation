@@ -1,5 +1,15 @@
 # CHANGELOG
 
+v1.8.1 (2024-9-15)
+---
+
+### Features
+* Add experimental system operation `GPT Command` to automate based on LLM.
+* Add step option `llmOptions` to define LLM settings.
+
+### Bug Fixes
+* Fix task finished issue of controlled robots.
+
 v1.8.0 (2023-6-31)
 ---
 
