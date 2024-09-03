@@ -26,6 +26,7 @@
   * [手机应用](sop_mobileapp)
   * [Dataframe](sop_dataframe)
   * [日期时间](sop_datetime)
+  * [AI](sop_ai)
 * 规则与模版
   * [查询规则](rule_query)
   * [匹配规则](rule_matching)

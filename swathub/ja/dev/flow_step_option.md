@@ -269,6 +269,21 @@ APIオペレーションの特殊設定です。
   * `useSystemProxy`: ロボット設定のシステムプロキシを利用するかどうか、`true`か`false`を使用します。デフォルトは`false`。
   * `rejectUnauthorized`: 未署名の証明書を拒否するかどうか、`true`か`false`を使用します。デフォルトは`false`。
 
+### `llmOptions`
+
+AIオペレーションの特殊設定です。
+
+* 異なる大規模言語モデルによって設定が異なる場合があります。デフォルトは`{}`。以下は`gpt-4`を使用する例です。
+
+``` json
+  "llmOptions": {
+    "model": "openai",
+    "openaiApiKey": "sk-xxx",
+    "openaiModel": "gpt-4",
+    "openaiBaseUrl": "https://api.openai.com"  
+  }
+```
+
 テスト機能
 ---
 

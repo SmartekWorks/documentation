@@ -292,6 +292,21 @@ Edge的特殊设置。
   * `useSystemProxy`：是否使用机器人设置中的代理设定。缺省值为`false`。
   * `rejectUnauthorized`: 是否拒绝未经认证的证书。缺省值为`false`。
 
+### `llmOptions`
+
+应用AI操作的特殊设置。
+
+* 使用MAP来设置选项和值，根据不同的大语言模型可能有不同的设置，缺省值为`{}`。以下是使用`gpt-4`的例子。
+  
+``` json
+  "llmOptions": {
+    "model": "openai",
+    "openaiApiKey": "sk-xxx",
+    "openaiModel": "gpt-4",
+    "openaiBaseUrl": "https://api.openai.com"  
+  }
+```
+
 测试功能
 ---
 

@@ -26,6 +26,7 @@
   * [モバイルアプリ](sop_mobileapp)
   * [DataFrame機能](sop_dataframe)
   * [Datetime機能](sop_datetime)
+  * [AI機能](sop_ai)
 * ルールとテンプレート
   * [クエリールール](rule_query)
   * [マッチングルール](rule_matching)
