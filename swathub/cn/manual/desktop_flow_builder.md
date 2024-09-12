@@ -11,11 +11,11 @@ SWATHub提供了桌面端的流程编辑工具，用户可以无需打开浏览�
 1. 下载SWATHub桌面端流程编辑器，安装包参考[机器人安装步骤](robot_setup#安装步骤)，如 `swathub-desktop-v1.0.0-x64.zip`。
 2. 将SWATHub编辑器安装包解压缩到安装目录。
 
-![图2  Local Builder 2](../assets/img/manual-Local-builder-02.png)
+![图2  Local Builder 2](../assets/img/manual-local-builder-02.png)
 
 3. 登录SWATHub网页端**用户设置**界面，将**桌面端设置**修改为`使用桌面端应用`。
 
-![图3  Local Builder 3](../assets/img/manual-Local-builder-03.png)
+![图3  Local Builder 3](../assets/img/manual-local-builder-03.png)
 
 
 
@@ -24,11 +24,11 @@ SWATHub提供了桌面端的流程编辑工具，用户可以无需打开浏览�
 
 1. 选择需要使用桌面端流程编辑器编辑的某个SWATHub工作项目的场景或流程，进入编辑器画面。
 
-![图4  Local Builder 4](../assets/img/manual-Local-builder-04.gif)
+![图4  Local Builder 4](../assets/img/manual-local-builder-04.gif)
 
 2. 打开**桌面端应用**后，即可进入该工作项目的场景或流程的编辑操作界面，桌面端应用支持同时打开同一个工作项目内的多个场景或流程。
 
-![图5  Local Builder 6](../assets/img/manual-Local-builder-06.png)
+![图5  Local Builder 6](../assets/img/manual-local-builder-06.png)
 
 流程搭建
 ---

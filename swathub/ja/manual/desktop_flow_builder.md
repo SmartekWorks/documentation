@@ -11,11 +11,11 @@ SWATHubはデスクトップフロービルダーを提供しており、ユー�
 1. SWATHubデスクトップフロービルダーのインストールパッケージをダウンロードするには、[ロボットのインストール](robot_setup#インストール手順)を参照してください。 たとえば、 `swathub-desktop-v1.0.0-x64.zip`。
 2. SWATHubエディターのインストールパッケージをインストールディレクトリに解凍します。
 
-![図2  Local Builder 2](../assets/img/manual-Local-builder-02.png)
+![図2  Local Builder 2](../assets/img/manual-local-builder-02.png)
 
 3. SWATHubのWebページの**ユーザー設定画面**にログインし、**デスクトップアプリケーション**を使用に変更します。
 
-![図3  Local Builder 3](../assets/img/manual-Local-builder-03.png)
+![図3  Local Builder 3](../assets/img/manual-local-builder-03.png)
 
 
 フローの選択
@@ -23,11 +23,11 @@ SWATHubはデスクトップフロービルダーを提供しており、ユー�
 
 1. デスクトップフロービルダーで編集する必要のあるSWATHub作業プロジェクトのシナリオまたはフローを選択して、エディター画面に移動します。
 
-![図4  Local Builder 4](../assets/img/manual-Local-builder-04.gif)
+![図4  Local Builder 4](../assets/img/manual-local-builder-04.gif)
 
 2. **デスクトップアプリケーション**を開くと、その作業プロジェクトのシナリオまたはフローの編集操作画面に入ることができます。デスクトップアプリケーションは、同じ作業プロジェクト内の複数のシナリオまたはフローを同時に開くことができます。
 
-![図5  Local Builder 6](../assets/img/manual-Local-builder-06.png)
+![図5  Local Builder 6](../assets/img/manual-local-builder-06.png)
 
 フローの構築
 ---
