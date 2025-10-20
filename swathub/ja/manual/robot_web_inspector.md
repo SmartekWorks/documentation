@@ -12,9 +12,9 @@ SWATHubはWebアプリのモデルのキャプチャーやエレメントのセ�
 
 | ブラウザ       | ダウンロード情報　 | 要求 | 拡張機能設定URL
 | ---------- | -----------   | ----------- | -----------
-| Google Chrome | [Chrome Web Store](https://chrome.google.com/webstore/detail/swathub-inspector/mgjolppchlcakohembjnblmejhohpjio) <br>[オフラインパッケージ](tools/swathub-inspector_v2.0.0.zip)| Google Chrome 31以上 | `chrome://extensions`
+| Google Chrome | [Chrome Web Store](https://chrome.google.com/webstore/detail/swathub-inspector/mgjolppchlcakohembjnblmejhohpjio) <br>[オフラインパッケージ](tools/swathub-inspector_v2.1.0.zip)| Google Chrome 31以上 | `chrome://extensions`
 | Mozilla Firefox | [オフラインパッケージ](tools/swathub-inspector_v2.0.0.xpi)| Mozilla Firefox 59以上 | `about:addons`
-| Windows Edge | [オフラインパッケージ](tools/swathub-inspector_v2.0.0.zip)| Windows Edge 76以上 | `edge://extensions`
+| Windows Edge | [オフラインパッケージ](tools/swathub-inspector_v2.1.0.zip)| Windows Edge 76以上 | `edge://extensions`
 
 ### インストール手順
 

@@ -36,7 +36,7 @@ SWATHub平台是模型驱动方式的流程自动化流程设计工作平台。�
 
 #### 操作隐藏
 
-然后使用 <i class = "fa fa-gear"></i> **操作动作** 中的 <i class = "fa fa-toggle-off"></i> **隐藏操作** 对模型后期的应用中不涉及的元素进行隐藏，简化页面。当需要从页面已隐藏的元素中重新获取可操作元素，可以试用 <i class = "fa fa-gear"></i> **操作动作** 中的 <i class = "fa fa-toggle-on"></i> **显示操作** 解除被隐藏元素的隐藏状态，变为正常显示。
+然后使用 <i class = "fa fa-gear"></i> **操作动作** 中的 <i class = "fa fa-toggle-off"></i> **隐藏操作** 对模型后期的应用中不涉及的元素进行隐藏，简化页面。当需要从页面已隐藏的元素中重新获取可操作元素，可以使用 <i class = "fa fa-gear"></i> **操作动作** 中的 <i class = "fa fa-toggle-on"></i> **显示操作** 解除被隐藏元素的隐藏状态，变为正常显示。
 
 ![29  隐藏](../assets/img/manual-model-29.png)
 
@@ -78,50 +78,13 @@ Web页面是流程自动化应用中常用的用户交互界面。我们可以�
 
 #### 浏览器插件获取
 
-**模型获取器**插件相对不同浏览器提供不同的应用插件，可根据客户端电脑的实际安装情况下载不同的插件应用。
+SWATHub提供[Web浏览器拾取插件](robot_web_inspector.md)，可以抓取网页模型，目前支持Chrome、Edge和Firefox浏览器。具体步骤详见[获取网页模型](robot_web_inspector.md#获取网页模型)。
 
-| 浏览器       | 下载信息           | 版本要求
-| ---------- | -----------   | -----------
-| Google Chrome | [Chrome Web Store](https://chrome.google.com/webstore/detail/swat-page-capture-tool/afipaojpjmlbclndicfpiaaancandbcm) <br>[离线安装包](tools/swat-chrome-capture.zip)| Google Chrome 31 以上
-| Mozilla Firefox | [Firefox Add-ons Marketplace](https://addons.mozilla.org/addon/new-swathub-page-capture-tool/) <br>[离线安装包](tools/new-swat-firefox-capture.zip)| Mozilla Firefox 59 以上
-| | [Firefox Add-ons Marketplace](https://addons.mozilla.org/firefox/addon/firefoxswatcapture/) <br>[离线安装包](tools/swat-firefox-capture.zip)| Mozilla Firefox 38 ~ 58
-| | [离线安装包](tools/swat-firefox-capture_1.2.1.zip)| Mozilla Firefox 29 ~ 37
-| Internet Explorer | [离线安装包](tools/swat-ie-capture.zip) | Internet Explorer 9 以上（仅适用32位）, [.NET Framework 4.0](http://www.microsoft.com/en-US/download/details.aspx?id=17718)
-
-当插件自动安装后，会在浏览器上方工具条显示<sup>1</sup>，或可以通过浏览器菜单选择页面模板，然后将所有文件上传到SWATHub中的存储库。 请注意，每个需要交互或操作的Web页面均需获取为一个本地文件。
-
-?> 1. 在使用Internet Explorer版本的模型获取器插件时，需要以管理员方式执行Internet Explorer。
-
-![图2  插件导入1](../assets/img/manual-model-02.png)
-
-![图3  插件导入2](../assets/img/manual-model-03.png)
-
-##### Google Chrome 安装说明
-1. 建议通过Chrome Web Store在线安装。 如果无法访问网上商店，请下载离线安装程序并按照以下步骤操作。
-2. 解压缩脱机安装程序，将结果文件夹放置到您的工作目录中。 请不要移动或删除该文件夹，因为它将使插件无效并需要重新安装。
-3. 在Chrome中，请点击 **Extensions > Load unpacked extension...**, 然后选择上面的文件夹。
-
-##### Mozilla Firefox 安装说明
-1. 建议通过Firefox Marketplace在线安装。 如果无法访问市场，请下载离线安装程序，然后按照以下步骤操作。
-2. 解压缩离线安装程序，您将得到一个`xpi`文件。 在Firefox中，请点击**扩展名**，然后将解压后的`xpi`文件拖到Firefox中。
-3. 对于 Firefox `29` ~ `37`, 仅离线安装可用。
-
-##### Internet Explorer 安装说明
-1. 在上表中下载安装包。
-2. 将zip文件解压缩到目标计算机上的安装目录。
-3. 以管理员身份运行`cmd.exe`以打开DOS提示符。
-4. 在DOS提示符下，转到安装目录并运行`install.bat`。
-
-在一些情况下，错误消息： `Could not load file or assembly or one of its dependencies. Operation is not supported. (Exception from HRESULT: 0x80131515)` 会出现。您需要按照以下步骤取消阻止DLL文件，然后从步骤3重新执行上述安装。
-
-1. 在Windows资源管理器中打开安装文件夹。
-2. 右键单击DLL文件之一，然后从上下文菜单中选择“属性”。
-3. 单击结果对话框右下角的**Unblock**按钮。
-4. 在另一个DLL文件上执行相同的操作。
+?> 1. 对于仅支持IE浏览器的网页模型，建议使用[客户端工具获取](#客户端工具获取)。
 
 #### 客户端工具获取
 
-SWATHub Robot客户端工具集成了模型获取器，我们可以试用客户端工具实现Web页面的获取。具体步骤详见**SWATHub桌面端**[模型获取器](desktop_model_capture_tool.md)。
+SWATHub Robot客户端工具集成了模型获取器，我们可以使用客户端工具实现Web页面的获取。具体步骤详见**SWATHub桌面端**[模型获取器](desktop_model_capture_tool.md)。
 
 ### Web模型导入
 
@@ -142,7 +105,7 @@ SWATHub Robot客户端工具集成了模型获取器，我们可以试用客户�
 
 ![图6  上传web文件3](../assets/img/manual-model-06.png)
 
-?> 1. 当需要建立多个Web模型时，可以试用工具连续获取页面文件，导入时将全部需要导入的页面文件选中，批量导入模型库。
+?> 1. 当需要建立多个Web模型时，可以使用工具连续获取页面文件，导入时将全部需要导入的页面文件选中，批量导入模型库。
 
 当页面的模型成功导入后会显示在左侧模型库内。SWATHub系统可根据Web页面文件自动识别出Web上各个组件控键的操作类型。
 
@@ -205,7 +168,7 @@ SWATHub对Web模型中页面和操作均可修改设置。
 
 ##### 引用模板库
 
-SWATHub提供5中Web页面常用的标准模板，包括：
+SWATHub提供5种Web页面常用的标准模板，包括：
 
 * html5 1.0.0
 * openui5 1.0.0
@@ -287,7 +250,7 @@ SWATHub桌面端工具集成了**模型获取器**，我们可以使用桌面端
 
 ![windows04  上传windows文件2](../assets/img/manual-model-windows-04.png)
 
-?> 1. 当需要建立多个Windows模型时，可以试用工具连续获取Windows程序页面文件，导入时将全部需要导入的Windows程序页面文件选中，批量导入模型库。
+?> 1. 当需要建立多个Windows模型时，可以使用工具连续获取Windows程序页面文件，导入时将全部需要导入的Windows程序页面文件选中，批量导入模型库。
 
 ### Windows模型功能
 
@@ -361,7 +324,7 @@ GUI模型
 
 ### GUI模型获取
 
-我们可以试用键盘的PrtSc对计算机屏幕进行获取，通过画板或其他制图软件，将获取的屏幕图像保存为.PNG格式（SWATHub平台GUI模型当前仅支持.PNG格式图片）。如果需要多步骤操作，请将各步骤的操作画面分别进行截屏保存操作。
+我们可以使用键盘的PrtSc对计算机屏幕进行获取，通过画板或其他制图软件，将获取的屏幕图像保存为.PNG格式（SWATHub平台GUI模型当前仅支持.PNG格式图片）。如果需要多步骤操作，请将各步骤的操作画面分别进行截屏保存操作。
 
 ### GUI模型导入
 
@@ -453,7 +416,7 @@ SWATHub桌面端工具集成了 模型获取器，我们可以使用桌面端工
 
 ![app07  上传app文件4](../assets/img/manual-model-app-07.png)
 
-?> 1. 当需要建立多个APP模型时，可以试用工具连续获取移动Web程序页面文件，导入时将全部需要导入的移动Web程序页面文件选中，批量导入模型库。
+?> 1. 当需要建立多个APP模型时，可以使用工具连续获取移动Web程序页面文件，导入时将全部需要导入的移动Web程序页面文件选中，批量导入模型库。
 
 ### APP模型功能
 

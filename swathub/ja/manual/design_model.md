@@ -82,45 +82,9 @@ Webモデルは、テスト自動化で一般的に使用されるユーザー�
 
 #### ブラウザプラグイン
 
-| ブラウザ 　       | ダウンロード情報　 | 要求
-|--------------| ------------ | ------------
-| Google Chrome | [Chrome Web Store](https://chrome.google.com/webstore/detail/swat-page-capture-tool/afipaojpjmlbclndicfpiaaancandbcm) <br>[オフラインインストーラー](tools/swat-chrome-capture.zip)| Google Chrome 31以上  
-| Mozilla Firefox | [Firefox Add-ons Marketplace](https://addons.mozilla.org/addon/new-swathub-page-capture-tool/) <br>[オフラインインストーラー](tools/new-swat-firefox-capture.zip)| Mozilla Firefox 59以上 
-| | [Firefox Add-ons Marketplace](https://addons.mozilla.org/firefox/addon/firefoxswatcapture/) <br>[オフラインインストーラー](tools/swat-firefox-capture.zip)| Mozilla Firefox 38 ~ 58
-| | [オフラインインストーラー](tools/swat-firefox-capture_1.2.1.zip)| Mozilla Firefox 29 ~ 37
-| Internet Explorer | [オフラインインストーラー](tools/swat-ie-capture.zip) | Internet Explorer 9以上（32bit版のみ）、[.NET Framework 4.0](http://www.microsoft.com/en-US/download/details.aspx?id=17718)
+SWATHubは[Webブラウザインスペクタープラグイン](robot_web_inspector.md)を提供しており、Webモデルをキャプチャできます。現在、Chrome、Edge、およびFirefoxブラウザをサポートしています。具体的な手順については、[Webモデルの取得](robot_web_inspector.md#Webモデルの取得)を参照してください。
 
-プラグインが自動的にインストールされると、ブラウザ上部のツールバーに表示されます<sup>1</sup>。または、ブラウザメニューからページテンプレートを選択し、すべてのファイルをSWATHubのリポジトリにアップロードすることもできます。 対話または操作が必要な各Webページは、ローカルファイルとして取得する必要があることに注意してください。
-
-?> 1. Internet ExplorerでWebキャプチャツールを正しく使うために、管理者権限でInternet Explorerを実行してください。
-
-![プラグインのインポート1](../assets/img/manual-model-10.jpg)
-
-![プラグインのインポート2](../assets/img/manual-model-11.jpg)
-
-##### Google Chromeへのインストール手順
-1. Chrome Web Storeを経由でのインストールをお勧めですが、インタネットに接続できない場合、オフラインインストーラーをダウンロードしていただいて、次の手順でインストールをお願いします。
-2. オフラインインストーラーをインストール先のフォルダー解凍します。このファイルが削除もしくは移動される場合、プラグインが無効になり、再インストールする必要があります。
-3. Chromeで**Extensions > Load unpacked extension...**のメニューをクリックして、インストール先のフォルダーを選択します。
-
-##### Mozilla Firefoxへのインストール手順
-1. Firefox Marketplaceを経由でのインストールをお勧めですが、インタネットに接続できない場合、オフラインインストーラーをダウンロードしていただいて、次の手順でインストールをお願いします。
-2. オフラインインストーラーから`xpi`ファイルを解凍します。Firefoxで**Extensions**メニューをクリックして、`xpi`ファイルをFirefoxにドラッグ＆ドロップします。
-3. Firefoxの`29` ~ `37`の場合、オフラインインストーラーのみが利用できます。
-
-##### Internet Explorerへのインストール手順
-
-1. 上記の表のインストールパッケージをダウンロードしてください。
-2. zipファイルをターゲットコンピュータのインストールディレクトリに解凍します。
-3. 管理者として `cmd.exe`を実行して、DOSプロンプトを開きます。
-4. DOSプロンプトで、インストールディレクトリに移動し、`install.bat`を実行します。
-
-場合によって、エラーメッセージ：`Could not load file or assembly or one of its dependencies. Operation is not supported. (Exception from HRESULT: 0x80131515)` が出ます。その場合、次の手順でDLLファイルのブロックを解除し、上記のインストールを手順3からやり直す必要があります。
-
-1. Windowsエクスプローラーのインストールフォルダーを開きます。
-2. 右側のDLLファイルのいずれかをクリックして、コンテキストメニューからプロパティを選択します。
-3. 表示されたダイアログの右下にあるブロック解除ボタンをクリックします。
-4. 他のDLLファイルに同じ操作を行います。
+?> 1. IEブラウザのみをサポートするWebページモデルについては、[クライアントツールでの取得](#クライアントツールでの取得)をお勧めします。
 
 #### クライアントツール
 
