@@ -12,9 +12,9 @@ SWATHub提供了基于浏览器插件的Web拾取工具「**SWATHub Browser Exte
 
 | 浏览器       | 下载信息           | 版本要求 | 扩展设置URL
 | ---------- | -----------   | ----------- | -----------
-| Google Chrome | [Chrome Web Store](https://chrome.google.com/webstore/detail/swathub-inspector/mgjolppchlcakohembjnblmejhohpjio) <br>[离线安装包](tools/swathub-inspector_v2.1.0.zip)| Google Chrome 31 以上 | `chrome://extensions`
+| Google Chrome | [Chrome Web Store](https://chrome.google.com/webstore/detail/swathub-inspector/mgjolppchlcakohembjnblmejhohpjio) <br>[离线安装包](tools/swathub-inspector_v2.1.1.zip)| Google Chrome 31 以上 | `chrome://extensions`
 | Mozilla Firefox | [离线安装包](tools/swathub-inspector_v2.0.0.xpi)| Mozilla Firefox 59 以上 | `about:addons`
-| Windows Edge | [离线安装包](tools/swathub-inspector_v2.1.0.zip)| Windows Edge 76 以上 | `edge://extensions`
+| Windows Edge | [离线安装包](tools/swathub-inspector_v2.1.1.zip)| Windows Edge 76 以上 | `edge://extensions`
 
 ### 离线包安装步骤
 
